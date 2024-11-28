@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Détails du Film</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Détails du Film</h1>
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="login.html" id="login-link">Connexion</a>
+            <a href="register.html" id="register-link">Inscription</a>
+            <button id="logout-button" style="display: none;">Déconnexion</button>
+        </nav>
+    </header>
+    <main>
+        <div id="movie-details">
+            <!-- Détails du film -->
+        </div>
+        <video id="movie-video" controls>
+            <source id="movie-source" type="video/mp4">
+            Votre navigateur ne supporte pas la lecture de vidéos.
+        </video>
+    </main>
+    <script src="auth.js"></script>
+    <script src="movie.js"></script>
+</body>
+</html>

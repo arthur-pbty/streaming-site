@@ -1,0 +1,7 @@
+{
+  "title": "Titre du film",
+  "description": "Description du film",
+  "genre": "Genre du film",
+  "releaseDate": "Date de sortie",
+  "rating": "Note"
+}
